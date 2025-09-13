@@ -22,8 +22,31 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+```python
+# Step 1: Initialize an empty stack
+stack = []
+
+# Step 2: Insert 3 elements from the user
+for i in range(3):
+    value = input("Enter element " + str(i+1) + ": ")
+    stack.append(value)
+
+# Step 3: Display the stack
+print("\nStack after inserting elements:", stack)
+
+# Step 4: Display the top element
+top_element = stack[-1]
+print("Top element of the stack is:", top_element)
 
 ## Output
 
+Enter element 1: 10
+Enter element 2: 20
+Enter element 3: 30
+
+Stack after inserting elements: ['10', '20', '30']
+Top element of the stack is: 30
+
 ## Result
+
+Thus, the Python program to implement a stack and display the top element was successfully executed.
