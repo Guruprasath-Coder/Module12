@@ -31,8 +31,41 @@ To write a Python program that:
 ---
 
 ## Program
-Add Code Here
+```python
+# Queue Implementation using List
+
+# Step 1: Create an empty queue
+queue = []
+
+# Step 2: Insert elements into the queue
+queue.append('a')
+queue.append('b')
+queue.append('c')
+
+# Step 3: Display initial queue
+print("Queue after elements are inserted:", queue)
+
+# Step 4: Delete first element (FIFO)
+removed_element = queue.pop(0)
+print("Deleting the first element inserted:", removed_element)
+
+# Step 5: Display updated queue
+print("Queue after the first element is deleted:", queue)
+
 
 ## Output
+Queue after elements are inserted: ['a', 'b', 'c']
+Deleting the first element inserted: a
+Queue after the first element is deleted: ['b', 'c']
 
 ## Result
+
+The Python program successfully demonstrated Queue operations using a list in Python:
+
+Inserted elements into the queue.
+
+Displayed all inserted elements.
+
+Deleted the first element following FIFO (First In First Out) order.
+
+Displayed the updated queue after deletion
