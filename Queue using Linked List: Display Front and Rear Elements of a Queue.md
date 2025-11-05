@@ -29,36 +29,28 @@ To write a Python program to:
 
 ---
 ## Program
-```python
-# Queue using List (simulating Linked List behavior)
-
-# Step 1: Initialize Queue
+~~~
 queue = []
 
-# Step 2: Insert elements
 queue.append('a')
 queue.append('b')
 queue.append('c')
 queue.append('d')
 
-# Step 3: Display Initial Queue
-print("Initial Queue:", queue)
+print('Initial Queue: ' + str(queue))
 
-# Step 4: Identify front and rear elements
 front = queue[0]
-rear = queue[-1]
 
-# Step 5: Print Results
-print("Front Element of Queue:", front)
-print("Rear Element of Queue:", rear)
+print("\nElement at the front of the queue is .... ", front)
 
+rear = queue[3]
+
+print("\nElement at the rear of the queue is .... ", rear)
+~~~
 
 ## Output
+<img width="858" height="218" alt="image" src="https://github.com/user-attachments/assets/ef1a253e-bb57-4708-adec-61358b1a5ba3" />
 
-Initial Queue: ['a', 'b', 'c', 'd']
-Front Element of Queue: a
-Rear Element of Queue: d
 
 ## Result
-
-Thus, the Python program to display the front and rear elements of a queue using list implementation was successfully executed.
+Thus the output is verified.
