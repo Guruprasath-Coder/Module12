@@ -1,11 +1,4 @@
 # 🌀 Queue using Linked List - Insert, Display, and Delete
-
-## 🎯 Aim
-
-To write a Python program that:
-- Inserts elements into a queue.
-- Displays all inserted elements.
-- Deletes the first element.
 - Displays the updated queue after deletion.
 
 ---
@@ -31,41 +24,26 @@ To write a Python program that:
 ---
 
 ## Program
-```python
-# Queue Implementation using List
-
-# Step 1: Create an empty queue
+~~~
 queue = []
 
-# Step 2: Insert elements into the queue
 queue.append('a')
 queue.append('b')
 queue.append('c')
 
-# Step 3: Display initial queue
-print("Queue after elements are inserted:", queue)
+print('Queue after elements are inserted:')
+print(queue)
 
-# Step 4: Delete first element (FIFO)
-removed_element = queue.pop(0)
-print("Deleting the first element inserted:", removed_element)
+print('Deleting the first element inserted:')
+print(queue.pop(0))
 
-# Step 5: Display updated queue
-print("Queue after the first element is deleted:", queue)
-
+print('Queue after the first elements is deleted:')
+print(queue)
+~~~
 
 ## Output
-Queue after elements are inserted: ['a', 'b', 'c']
-Deleting the first element inserted: a
-Queue after the first element is deleted: ['b', 'c']
+<img width="843" height="246" alt="image" src="https://github.com/user-attachments/assets/d06be383-a06e-42a5-8f4b-3bd5623cbdbc" />
+
 
 ## Result
-
-The Python program successfully demonstrated Queue operations using a list in Python:
-
-Inserted elements into the queue.
-
-Displayed all inserted elements.
-
-Deleted the first element following FIFO (First In First Out) order.
-
-Displayed the updated queue after deletion
+Thus the output is verified.
