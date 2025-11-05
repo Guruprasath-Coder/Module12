@@ -22,31 +22,33 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-```python
-# Step 1: Initialize an empty stack
+~~~
 stack = []
 
-# Step 2: Insert 3 elements from the user
-for i in range(3):
-    value = input("Enter element " + str(i+1) + ": ")
-    stack.append(value)
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
 
-# Step 3: Display the stack
-print("\nStack after inserting elements:", stack)
+print('Initial stack: ' + str(stack))
 
-# Step 4: Display the top element
-top_element = stack[-1]
-print("Top element of the stack is:", top_element)
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nElement at the top of the stack is .... ", top)
+
+stack.pop()
+
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nAfter removing an element from the stack.")
+print("\nElement at the top of the stack is .... ", top)
+~~~
 
 ## Output
+<img width="913" height="300" alt="image" src="https://github.com/user-attachments/assets/752b22f5-d40b-436e-b131-2024ffc30aed" />
 
-Enter element 1: 10
-Enter element 2: 20
-Enter element 3: 30
-
-Stack after inserting elements: ['10', '20', '30']
-Top element of the stack is: 30
 
 ## Result
-
-Thus, the Python program to implement a stack and display the top element was successfully executed.
+Thus the output is verified.
